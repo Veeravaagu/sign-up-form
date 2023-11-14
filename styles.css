@@ -65,9 +65,111 @@ bottom: 2.5%;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
     position: relative;
-    background: linear-gradient(to top, rgb(92, 84, 112),rgb(185, 180, 199), rgb(53, 47, 68));
+    background: linear-gradient(to top, rgb(111,36,36), rgb(62,69,69), rgb(147, 177, 166));
 }
+
+.textContainer{
+    display: flex;
+    justify-content: center;
+    color: rgb(252, 245, 237);
+    position: relative;
+    text-align: center;
+    width: 80%
+}
+
+
+
+.textContainer>h2 {
+    width: 75ch;
+    font-style: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.formContainer {
+position: relative;
+width: 90%;
+height: 70%;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: flex-start;
+}
+
+#left-h2-container{
+    color: rgb(252, 245, 237);
+    font-style: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+#left-form-container{
+    width: 90%;
+    height: 70%;
+    display: flex;
+
+}
+
+#first-form-container, #second-form-container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+#first-form-container>div, #second-form-container>div{
+    width: 100%;
+    height: 15%;
+}
+
+.label {
+    color: rgb(252, 245, 237);
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input{
+    border: none;
+    width: 60%;
+    border-radius: 5px;
+}
+
+#left-footer-container{
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button{
+    width: 100%;
+    padding: 0.8em;
+    border-radius: 10px;
+    transition: background-color 0.2s;
+    border: none;
+    color:rgb(62,69,69);
+    background-color: rgb(252, 245, 237);
+}
+
+button:hover {
+    background-color: rgb(62,69,69);
+    color: rgb(252, 245, 237);
+}
+
+h3 {
+    color: rgb(252, 245, 237);
+}
+
+h3>span {
+    color: rgb(182, 250, 255);
+}
+
+
+
 
